@@ -1,0 +1,4 @@
+com\sample\WebAppArchetype\service\serverside\HelloWolrdServiceImpl.class
+com\sample\WebAppArchetype\gui\HelloWorldPage$1.class
+com\sample\WebAppArchetype\gui\HelloWorldPage.class
+com\sample\WebAppArchetype\service\HelloWorldService.class
