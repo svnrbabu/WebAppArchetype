@@ -1,1 +1,43 @@
 Hello
+Please find the attached code
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+		#exweb, #webloader{
+			width: 1200px;
+			height: 1000px;
+			margin: 0 auto;
+		}
+	</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        alert("Hello How are you");
+        $("#exweb").html('<object id="webloader" data="http://www.timesofindia.com"/>');
+    });
+
+    $("#btn2").click(function(){
+        alert("Hello How are you");
+        $("#exweb").html('<object id="webloader" data="http://ndtv.com"/>');
+    });
+});
+</script>
+</head>
+<body>
+
+	<h3 align="center">Demo of how to load an external website with a simple jQuery function! - Tutorial by <a href="">tutorialsmade.com</a></h3>
+	<button id="btn1"> Click to load Times </button>
+	<button id="btn2"> Click to load  NDTV </button>
+	
+	<!-- load a website into this div -->
+	<div id="exweb"></div>
+
+	
+
+</body>
+</html>
+Show quoted text
